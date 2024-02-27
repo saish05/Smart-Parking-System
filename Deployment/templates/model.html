@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Enabled Car Parking Model</title>
+
+    <!-- Add CSS links for fonts and styles -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+    
+            margin: 0;
+            padding: 0;
+            background-image: url("bg1.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+
+        .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 40px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar li a {
+  font-family: 'Montserrat';
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .form {
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+
+        .form header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .formBody {
+            margin-bottom: 30px;
+        }
+
+        .formBody p {
+            margin: 0;
+            padding: 5px 0;
+        }
+
+        .formBody ol {
+            text-align: left;
+            margin-left: 40px;
+        }
+
+        .formBody ol li {
+            margin-bottom: 10px;
+        }
+
+        .button-field {
+            text-align: center;
+        }
+
+        .button-field button {
+            padding: 10px 20px;
+            font-size: 18px;
+            text-align: center;
+            background-color: #0171d3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+    cursor: pointer;
+        }
+
+        .button-field button:hover {
+            background-color: #016dcb;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Register</a></li>
+            <li><a href="model.html">Model</a></li>
+        </ul>
+    </div>
+    <section class="container forms">
+        <div class="form model">
+            <div class="form-content">
+                <header>AI-Enabled Car Parking Model</header>
+                <div class="formBody">
+                    <p>Welcome to the AI-Enabled Car Parking Model demo!</p>
+                    <p>This demo showcases our advanced parking facilitator powered by Artificial Intelligence (AI) and Computer Vision.</p>
+                    <p>Instructions:</p>
+                    <ol>
+                        <li>Click on the "Start Demo" button below.</li>
+                        <li>After clicking "Start Demo", a window will appear in the taskbar. Click on it to view the video.</li>
+                        <li>Observe the live vehicle detection and tracking.</li>
+                        <li>Press the "ESC" key to exit the demo at any time.</li>
+                    </ol>
+                </div>
+                <form action="modelq" method="post">
+                    <div class="field button-field">
+                        <button type="submit">Start Demo</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
