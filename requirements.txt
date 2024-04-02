@@ -1,0 +1,6 @@
+Flask
+cv2
+pickle
+cvzone
+numpy
+Gunicorn
