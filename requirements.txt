@@ -1,6 +1,5 @@
 Flask
-cv2
-pickle
+opencv-python
 cvzone
 numpy
 Gunicorn
